@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow-x: hidden; 
+}
+
+
+.header{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
+.title{
+    display: flex;
+    padding: 5px;
+}
+
+.name{
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+    padding-left: 10px;
+    width: fit-content;
+}
+
+.logo{
+    /* border: 2px solid blue; */
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 10vh;
+    width: 5vw;
+}
+
+.cont_info{
+    display: flex;
+    padding: 5px;
+    margin-left: 65vw;
+
+}
+.mobile, .mail {
+    color: #2F4454;
+  }
+.phone{
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+    padding-left: 5px;
+    width: fit-content;
+}
+
+.email{
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+    padding-left: 40px;
+    width: fit-content;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+.box1{
+    /* border: 2px solid #006536; */
+    width: 100%;
+    height:595px;
+    background-color: #2F4454; 
+    display: flex;
+    
+}
+
+.box1_text{
+    /* border: 1px solid silver; */
+    width: 80vw;
+    height: fit-content;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.box1_title{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid yellow; */
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.box1_tit1{
+    width: 9px;
+    height: 140px;
+    background-color: #CFE4B2;
+}
+
+.box1_tit2{
+    /* border: 2px solid blue; */
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+.box1_tit2 p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 4px;
+    
+}
+
+.box1_para{
+    margin-top: 40px;
+    /* margin-left: 65px; */
+    margin-left: 6%;
+    width: 85%;
+    /* border: 2px solid red; */
+    word-wrap: break-word;
+    font-size: 17px;
+}
+
+.box1_para p{
+    line-height: 1.5;
+
+}
+
+/* --------------------------------------------------------------- */
+
+.category{
+    /* border: 1px solid blue; */
+    height: fit-content;
+    width: 7vw;
+    /* margin-top: 100px; */
+    /* margin-left: 87vw; */
+    margin-top: 10%;
+    margin-left: 89%;
+    position: fixed;
+
+
+}
+.cat_box {
+    width: 80px;
+    padding: 3px;
+    padding-top: 5px;
+    margin-left: 20px;
+    height: 25px;
+    background-color: whitesmoke;
+    margin-top: 15px; 
+    text-align: center;
+}
+
+.cat_box p {
+    font-size: 15px;
+    color: black; /* Set default text color */
+}
+
+#present  {
+    background-color: #2F4454;
+}
+
+#present p {
+    color: white;
+}
+
+.cat_box:hover {
+    cursor: pointer;
+    background-color: #2F4454;
+}
+
+.cat_box:hover p a {
+    color: white; /* Change text color to white on hover */
+}
+
+
+.cat_box p a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ------------------------------------------------------------------------------------------------*/
+
+.box2{
+    width: 100vw;
+    height: 380px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.box2_details{
+    /* border: 1px solid red; */
+    height: 40vh;
+    width: 40vw;
+    margin-top: 120px;
+    margin-left: 5%;
+    display: flex;
+}
+
+.box2_2details{
+    /* border: 1px solid red; */
+    height: 40vh;
+    width: 40vw;
+    margin-top: 120px;
+    display: flex;
+    margin-left: 3%;
+    
+}
+
+.box2_logo{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 85px;
+    overflow: hidden;
+}
+.box2_logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+    margin: auto; 
+}
+
+.box2_line{
+    width: 9px;
+    height: 60px;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-color: #376E65;
+}
+
+.box2_title{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 170px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.box2_title p{
+    font-size: 30px;
+    color: #134F33;
+}
+
+.box2_para{
+    /* border: 2px solid blue; */
+    height: fit-content;
+    width: 400px;
+    margin-top: 25px;
+    flex: none;
+    
+}
+
+.box2_para p{
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.box3{
+    width: 100vw;
+    height: 650px;
+    /* background-color: #006536; */
+    background-color: #2F4454;
+}
+
+.box3_title{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid yellow; */
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.box3_tit1{
+    width: 9px;
+    height: 140px;
+    background-color: #CFE4B2;
+    margin-top: 110px;
+    margin-left: 85px;
+}
+
+.box3_tit2{
+    /* border: 2px solid blue; */
+    margin-left: 20px;
+    margin-top: 107px;
+    
+}
+
+.box3_tit2 p{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 4px;
+    
+}
+
+.box3_boxes{
+    /* border: 1px solid blue; */
+    height: 190px;
+    width: 60vw;
+    margin-left: 155px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.box3_logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    font-size: 50px; 
+    font-weight: bold;
+    color: #134F33;
+    transition: transform 0.5s ease;
+}
+
+.box3_logo:hover{
+    transform: scale(1.1);
+}
+
+.box3_boxestitle{
+    /* border: 1px solid red; */
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 7px;
+    color: white;
+}
+
+.box3_boxespara{
+    /* border: 1px solid red; */
+    width: 160px;
+    height: 25px;
+    color: white;
+    margin-left: 5px;
+}
+
+.box3_boxes1{
+    display: flex;
+}
+
+.box3_line{
+    width: 1px; 
+    height: 200px;
+    background-color: white;
+    margin-left: 30px; 
+}
+
+.box3_mainbox2{
+    margin-left: 10px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.box4{
+    width: 100vw;
+    height: 900px;
+}
+
+.box4_heading{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 470px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.box4_heading p{
+    font-size: 30px;
+    color: #134F33;
+}
+
+.box4_line{
+    width: 9px;
+    height: 55px;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-color: #2F4454;
+}
+
+.box4_title{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 600px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.box4_topics{
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin-left: 135px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.box4_topics1{
+    height: fit-content;
+    /* border: 1px solid red; */
+}
+
+.box4_topics_title{
+    color: #134F33;
+}
+
+.box4_topics_para{
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 450px;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.box4_topics1_new{
+    margin-left: 80px;
+}
+
+.box4_topics_new2{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+
+.box4_topics_para p{
+    line-height: 1.5;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+.box5{
+    width: 100vw;
+    height: 80px;
+    /* background-color: #006536; */
+    background-color: #2F4454;
+    display: flex;
+
+}
+
+.box5_box1{
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 500px;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.box5_box1 p{
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 14px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.box5_box2{
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 500px;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 50vw;
+    display: flex;
+}
+.box5_box2_logo{
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    height: 7vh;
+    width: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.cat_box p a{
+    text-decoration: none;
+    color: black;
+}
+
+.box5_box2_text p{
+    color: white;
+    font-size: 14px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.box5_location-icon{
+    font-size: 22px;
+}

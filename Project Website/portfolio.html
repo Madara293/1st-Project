@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script>
+        function expandThumbnail(container) {
+            document.querySelector(`.${container} .overlay`).style.display = 'block';
+        }
+
+        function shrinkThumbnail(container) {
+            document.querySelector(`.${container} .overlay`).style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="title">
+            <div class="logo"><img src="nextholdings2.png" alt="Description of the image"></div>
+            <!-- <div class="name">Lucky Panday</div> -->
+        </div>
+
+        <div class="cont_info">
+            <div class="phone">
+                <p><span class="mobile">&#9742;</span> 9800000000</p>
+            </div>
+            <div class="email">
+                <p><span class="mail"> &#9993;</span> abc@gmail.com</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="category">
+        <div class="cat_box">
+            <p><a href="web.html">Home</a></p>
+        </div>
+        <div class="cat_box">
+            <p><a href="leadership.html">Leadership</a></p>
+        </div>
+        <div class="cat_box" id="present">
+            <p>Portfolio</p>
+        </div>
+        <div class="cat_box">
+            <p><a href="media.html">Media</a></p>
+        </div>
+        <div class="cat_box">
+            <p><a href="career.html">Career</a></p>
+        </div>
+        <div class="cat_box">
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+
+
+    <div class="main_title">
+        <div class="leader_title">
+            <P>PORTFOLIO</P>
+        </div>
+        <div class="line"></div>
+    </div>
+
+
+    <div class="portfolio_boxes">
+        <div class="mini_box1">
+
+            <div class="container2">
+                <div class="thumbnail" onclick="expandThumbnail('container2')">
+                    <img src="portfolio_images/img1.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container2')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img1.png" alt="Thumbnail">
+                        <p>Nepali Paisa application (app) and website provide an innovative online platform, offering
+                            easy access to Nepal's stock market news, data, tools, indicators, reports, and more. With
+                            an intuitive and user-friendly interface, users can stay up-to-date with the latest trends
+                            and insights, ensuring a comprehensive experience of the Nepalese stock market.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mini_box1">
+
+            <div class="container3">
+                <div class="thumbnail" onclick="expandThumbnail('container3')">
+                    <img src="portfolio_images/img2.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container3')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img2.png" alt="Thumbnail">
+                        <p>Founded in 2011 by Abhijit Shrestha and Ajay Shrestha, Source Code is a pioneering fintech
+                            company that develops innovative solutions for capital markets, including tools for stock
+                            brokers, merchant bankers, and investors, and focuses on creating a comprehensive data bank
+                            of NEPSE-listed companies and executing complex financial and real estate analysis.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mini_box1">
+
+            <div class="container4">
+                <div class="thumbnail" id="img3" onclick="expandThumbnail('container4')">
+                    <img src="portfolio_images/img3.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container4')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img3.png" alt="Thumbnail">
+                        <p>Since 1995, TIME Pharmaceuticals has led Nepal's pharmaceutical industry as a WHO-GMP
+                            certified entity, creating over 200 products to bolster healthcare and foster national
+                            self-sufficiency in vital medicines. With a steadfast dedication to innovation and
+                            excellence, they prioritize improving patient health by addressing unmet medical needs.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="portfolio_boxes">
+        <div class="mini_box1">
+
+            <div class="container5">
+                <div id="img4" onclick="expandThumbnail('container5')">
+                    <img src="portfolio_images/img4.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container5')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img4.png" alt="Thumbnail">
+                        <p>Attic was established in 2009 in Uttar Dhoka, now located in Gyaneshwor. Attic has evolved
+                            from a cozy gathering place to a premier destination for outstanding dining and hospitality.
+                            Renowned for their great food, exquisite drinks, and exemplary atmosphere, Attic is the
+                            perfect setting for a memorable experience.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mini_box1">
+
+            <div class="container6">
+                <div id="img4" onclick="expandThumbnail('container6')">
+                    <img src="portfolio_images/img5.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container6')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img5.png" alt="Thumbnail">
+                        <p>Kaffeine was founded in 2013, and has become a cornerstone in the coffee industry. Starting
+                            as a small coffee outlet, kaffeine quickly grew, embracing role as educators and suppliers
+                            within the coffee community.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mini_box1">
+
+            <div class="container7">
+                <div class="thumbnail" onclick="expandThumbnail('container7')">
+                    <img src="portfolio_images/img6.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container7')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img6.png" alt="Thumbnail">
+                        <p>Next Holdings Real Estate is a subsidiary of Next Holdings Limited. It is developing Holiday
+                            Homes project in Nagarkot.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="portfolio_boxes">
+        <div class="mini_box1">
+
+            <div class="container8">
+                <div class="img6" onclick="expandThumbnail('container8')">
+                    <img src="portfolio_images/img7.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container8')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img7.png" alt="Thumbnail">
+                        <p>Kathmandu Lanco Pvt. Ltd is a premier real estate development company involved in the
+                            organized housing, apartment, and commercial real estate sectors. In addition to residential
+                            housing projects, Kathmandu Lanco’s plans include high quality, aspirational, and innovative
+                            mixed use spaces in and beyond the Kathmandu Valley.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mini_box1">
+
+            <div class="container9">
+                <div class="img6" onclick="expandThumbnail('container9')">
+                    <img src="portfolio_images/img8.png" alt="Thumbnail">
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container9')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img8.png" alt="Thumbnail">
+                        <p>Bottlers Nepal (Terai) Limited (BNTL), subsidiary of Bottlers Nepal Limited, is located in
+                            Bharatpur, Chitwan. During the time of inception, BNTL started manufacturing its products in
+                            RGB (Returnable glass bottles) and eventually in 2013, added a PET packaging line.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mini_box1">
+
+            <div class="container10">
+                <div class="thumbnail" onclick="expandThumbnail('container10')">
+                    <img src="portfolio_images/img9.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container10')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img9.png" alt="Thumbnail">
+                        <p>Nepal Warehousing Company Limited was established in 2017 with the objective of providing
+                            commodity storage services, auction management services, laboratory test services,
+                            collateral management services for warehouse receipt financing and commodities fleet
+                            management services. The company is developing Silo and related infrastructure and
+                            facilities in three locations - 15000 MT capacity each in Sunsari and Kapilvastu and 25000
+                            MT capacity in Parsa.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="portfolio_boxes">
+        <div class="mini_box1">
+
+            <div class="container11">
+                <div class="thumbnail" onclick="expandThumbnail('container11')">
+                    <img src="portfolio_images/img10.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container11')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img10.png" alt="Thumbnail">
+                        <p>Shreenagar Agritech Industries Ltd. (SAIL) is Nepal’s leading Agri business company providing
+                            integrated services to the farmers. The company aims to be the One Stop Solution for Farmers
+                            - providing seed, feed, services and market connections for their growth and success.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mini_box1">
+
+            <div class="container12">
+                <div class="thumbnail" onclick="expandThumbnail('container12')">
+                    <img src="portfolio_images/img11.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container12')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img11.png" alt="Thumbnail">
+                        <p>Peoples Energy Limited is developing 48.8 MW Khimti-II Hydroelectric Project. The project is
+                            located in the border of Ramechhap and Dolakha districts. Khimti River is a tributary of
+                            Tamakoshi - a major branch of Saptakoshi river system of Nepal.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mini_box1">
+
+            <div class="container13">
+                <div id="img5" onclick="expandThumbnail('container13')">
+                    <img src="portfolio_images/img12.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container13')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img12.png" alt="Thumbnail">
+                        <p>Lord Buddha Reinsurance Broking Company received reinsurance broker license from Nepal
+                            Insurance Authority in 2022. The company acts as an intermediary between the Insurance
+                            Company and the Reinsurance Company.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="portfolio_boxes">
+        <div class="mini_box1">
+
+            <div class="container14">
+                <div class="thumbnail" onclick="expandThumbnail('container14')">
+                    <img src="portfolio_images/img13.png" alt="Thumbnail">
+
+                </div>
+                <div class="overlay" onclick="shrinkThumbnail('container14')">
+                    <div class="expanded-thumbnail">
+                        <img src="portfolio_images/img13.png" alt="Thumbnail">
+                        <p>Annapurna Cable Car was established in 2073 BS to run a cable car from Sedibagar to
+                            Sarangkot. It has 17 gondolas that can convey 500 people per hour.</p>
+                        <button class="close-button" onclick="shrinkThumbnail()">&times;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="box5">
+        <div class="box5_box1"><p>© Next Holdings Limited - All Rights Reserved</p></div>
+        <div class="box5_box2">
+            <div class="box5_box2_logo"> <i class="fas fa-map-marker-alt box5_location-icon"></i></div>
+            <div class="box5_box2_text"><P>Naxal, Kathmandu, Nepal</P></div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
